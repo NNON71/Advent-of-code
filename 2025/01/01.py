@@ -1,6 +1,3 @@
-with open('./input.txt', 'r') as f:
-    lines = f.readlines()
-    lines = [line.strip() for line in lines]  
 
 # print(lines) 
 test_case = [
@@ -19,7 +16,7 @@ test_case = [
 pointing = 50
 ans = 0
 
-for text in lines:
+for text in test_case:
     turn = text[0]
     degree = int(text[1:])
     
